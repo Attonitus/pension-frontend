@@ -16,7 +16,7 @@ interface IData {
 
 export const getPension = async(dataToSend: IData) => {
     try {
-        const res = await fetch("http://localhost:3000/api/calculator/complete", {
+        const res = await fetch("https://pension-calculator-xoak.onrender.com/api/calculator/complete", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
