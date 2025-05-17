@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    background-color: #222831;
+    color: #F5EEDD;
+}
+
+
+.input-div {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-block: .5rem;
+}
+
+input {
+    font-size: 1.3rem;
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    font-family: "Kanit", sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.inputs-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.periody-dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #F5EEDD;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    padding-block: 2rem;
+}
+
+.subtotal {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #4df04d;
+
+}
+
+.total-aguin {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #4df04d;
+}
+
+.calculate-pension {
+    text-align: center;
+    background-color: rgb(64, 90, 112);
+    inline-size: 50%;
+    margin: auto;
+}
+
+.calculate-title {
+    font-size: 2rem;
+}
+
+.margin {
+    inline-size: 60rem;
+    margin: auto;
+    padding-block: .5rem;
+}
+
+.semanas-info {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #28415b;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.warning-text {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 2rem;
+  margin-inline: 2rem;
+}
