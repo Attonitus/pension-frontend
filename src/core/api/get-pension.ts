@@ -1,4 +1,3 @@
-import { PensionResponse } from "../interfaces/pension-response";
 
 interface IData {
     name: string;
